@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script src="./js/utilts.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+
+        while (true) {
+            
+            Hero.attack();
+            Dragon.attackDragon();
+
+                if (Dragon.hp <= 0)  {
+                    console.log(`победил герой `);
+                    break;
+                    } 
+
+                if (Hero.hp <=0 ) {
+                    console.log(`победил дракон `);
+                    break;
+                    } 
+
+        }
+    </script>
+</body>
+</html>
+
+
