@@ -36,6 +36,7 @@ const modifyHelthDragon = function () {
     console.log(messageDrakon);
 }
 
+
 const attackDragon = function () {
     if (getRandomInt (50) ) {
         this.modifyHelthDragon();
